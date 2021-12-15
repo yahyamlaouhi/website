@@ -66,14 +66,14 @@ export default function Layout(props) {
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav me-auto mb-2 mb-md-0" style={{    marginLeft: "80px"}}>
-        <li class="nav-item">
+      <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+        <a class="nav-link active" aria-current="page" href="#">About us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
+        <a class="nav-link active" aria-current="page" href="#">Contact us</a>
         </li>
       </ul>
   </div>
@@ -98,7 +98,7 @@ export default function Layout(props) {
 </div>
 
 <div class="row">
-<p>csavdavsdv</p>
+<p>Browse and find what you need</p>
 
 </div>
 
@@ -110,13 +110,13 @@ export default function Layout(props) {
   </div>
   
   <div class="row">
-  <Link href="/login" >
+  <Link href="/" >
   <a style={{color:"black",     marginTop: "19px"}}>Login</a>
 </Link>
 
 </div>
 <div class="row">
-<p >savsavav</p>
+<p >Already have an account,then wlcome back</p>
 
 </div>
 
@@ -140,8 +140,8 @@ export default function Layout(props) {
   <footer >
   <Logo data={false}></Logo>
 
-  <div class="text-center p-3"  style={{backgroundColor:"black"}}>
-    © 2020 Copyright:
+  <div class="text-center p-3"  style={{backgroundColor:"black",color:"white"}}>
+    © 2020 All Rights Reserved
   </div>
 </footer>
 

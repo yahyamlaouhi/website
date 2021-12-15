@@ -5,18 +5,7 @@ import Logo from './Logo'
 
 
 export default function Layout(props) {
-  let menu;
-
-  if(localStorage.getItem("token")){
-    <nav  class="navbar navbar-light bg-light justify-content-between">
-    <a class="navbar-brand"> </a>
-    <form class="form-inline">
-      <button  class="btn btn-outline-link btn-sm my-2 my-sm-0" type="submit">Login</button>
-        <button  class="btn btn-outline-link btn-sm my-2 my-sm-0" type="submit">Regsiter</button>
-    </form>
-  </nav>
-
-  }
+  
 
 
 
@@ -39,7 +28,6 @@ export default function Layout(props) {
 
     
   </head>
-{menu}
 
 
     
@@ -59,10 +47,10 @@ export default function Layout(props) {
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+        <a class="nav-link active" aria-current="page" href="#">About us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
+        <a class="nav-link active" aria-current="page" href="#">Contact us</a>
         </li>
       </ul>
   </div>
