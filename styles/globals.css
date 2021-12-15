@@ -1,0 +1,168 @@
+
+
+
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      body{
+        background-color: rgb(247, 241, 241) !important;
+    }
+    #register{
+      background-color: white;
+      border-top-left-radius:20px ;
+      border-bottom-left-radius:20px ;
+      width: 310px;
+      height: 150px;
+      margin-left: 15px;
+    
+
+    }
+    #login{
+      background-color: white;
+      border-top-right-radius:20px ;
+      border-bottom-right-radius:20px ;
+      width: 320px;
+      height: 150px;
+    
+
+    }
+
+
+    footer{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 10px;
+      background-color: black;
+    }
+
+p{
+  color: gray;
+}
+/* ////////////////////////// */
+
+
+#mbody{
+  background-color: black;
+
+    height:140px;
+    position:relative;
+   
+
+
+
+}
+#logo{
+      width:300px;   
+     margin-left: 450px; 
+      margin-top: 100px; 
+}
+
+
+
+#sdiv{
+  width:82px;
+  height:130px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%) rotate(-45deg);
+}
+
+span{
+  position:absolute;
+}
+#slogo:nth-of-type(1){
+  width:100px;
+  height:30px;
+  background:#f2994A;
+  border-radius:10px 0 0;
+
+}
+#slogo:nth-of-type(2){
+  width:30px;
+  height:80px;
+  background:#f2994A;
+  border-radius:10px 0 5px;
+}
+#slogo:nth-of-type(3){
+  width:100px;
+  height:30px;
+  background:#2D9Cdb;
+  border-radius:0 0 10px;
+  bottom:0;
+  right:0;
+}
+
+#slogo:nth-of-type(4){
+  width:30px;
+  height:80px;
+  background:#2D9Cdb;
+  border-radius:5px 0 10px;
+  bottom:0;
+  right:0;
+}
+#mlogo:nth-of-type(1){
+  width:50px;
+  height:15px;
+  background:#f2994A;
+  border-radius:10px 0 0;
+
+}
+#mlogo:nth-of-type(2){
+  width:15px;
+  height:40px;
+  background:#f2994A;
+  border-radius:10px 0 5px;
+}
+#mlogo:nth-of-type(3){
+  width:50px;
+  height:15px;
+  background:#2D9Cdb;
+  border-radius:0 0 10px;
+  bottom:0;
+  right:0;
+}
+
+#mlogo:nth-of-type(4){
+  width:15px;
+  height:40px;
+  background:#2D9Cdb;
+  border-radius:5px 0 10px;
+  bottom:0;
+  right:0;
+}
+#mdiv{
+  width:40px;
+  height: 64px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%) rotate(-45deg);
+}
+
+ 
+#sbody{
+  background-color: black;
+
+    height:300px;
+    position:relative;
+
+    width: 300px;
+    margin-left: 500px;
+    margin-top: 100px;
+
+
+}
+  
